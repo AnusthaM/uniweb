@@ -3,7 +3,7 @@ const ContactPage = () => {
      return (
           <>
 
-               Contact
+
 
           </>
      )

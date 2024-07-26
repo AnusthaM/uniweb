@@ -1,121 +1,34 @@
-
-
 import "./landing.css";
+import TextCardComponent from "../../components/common/card/text-card.component";
 import { BannerComponent } from "../../components/banner";
-import { Heading3 } from "../../components/common/title";
-import { ImageWithTitleCard, SingleProductCard } from "../../components/common/card/single-card.component";
+import MultipleCardComponent from "../../components/common/card/cards-with-content";
+import FaqComponent from "../../components/faq/faq";
+import ArticleComponent from "../../components/article/article-component";
 
 const LandingPage = () => {
      return (
           <>
+               <TextCardComponent />
+
+               <span className="flex items-center text-gray-500 h-20">
+                    <span className="h-px flex-1 bg-gradient-to-l from-sky-900"></span>
+                    <span className="shrink-0 px-6 text-pretty">Gateway To Top Colleges</span>
+                    <span className="h-px flex-1 bg-gradient-to-r from-sky-900"></span>
+               </span>
 
                <BannerComponent />
-               <div className="flex justify-between mx-20 mt-20 border-b border-solid border-teal-500/50 pb-3">
-                    <Heading3>
-                         <>
-                              Catogery List
-                         </>
-                    </Heading3>
-                    <a className="bg-teal-700 text-white text-center pt-2.5 rounded-lg w-40" href="/catogories">
-                         View All 	&rarr;
-                    </a>
-               </div>
-
-               <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mx-20 my-20">
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-
-                    <ImageWithTitleCard data={
-                         {
-                              _id: "",
-                              title: "Gaming Chairs",
-                              slug: "/category/gaming-chairs",
-                              image: "https://static-01.daraz.com.np/p/28a3252842056b2e13d6ebc0eafa5af3.png_300x0q75.webp"
-                         }
-                    } />
-               </div>
-
-               <div className="flex justify-between mx-20 mt-20 border-b border-solid border-teal-500/50 pb-3">
-                    <Heading3>
-                         <>
-                              Product List
-                         </>
-                    </Heading3>
-                    <a className="bg-teal-700 text-white text-center pt-2.5 rounded-lg w-40" href="/catogories">
-                         View All 	&rarr;
-                    </a>
-               </div>
-
-               <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 mx-20 my-20">
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
-                    <SingleProductCard data={{}} />
 
 
-               </div>
+               <MultipleCardComponent />
+               <ArticleComponent />
 
+               <span className="flex items-center text-gray-500 h-20">
+                    <span className="h-px flex-1 bg-gradient-to-l from-sky-900"></span>
+                    <span className="shrink-0 px-6 text-pretty">Frequently Asked Questions</span>
+                    <span className="h-px flex-1 bg-gradient-to-r from-sky-900"></span>
+               </span>
 
-
+               <FaqComponent />
 
           </>
 

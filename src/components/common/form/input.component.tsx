@@ -114,8 +114,8 @@ export const RoleSelectComponent = ( { control, name, errMsg = "" }: SelectOptio
      return ( <>
           <SelectOptionComponent
                options={
-                    [ { label: "Buyer", value: "customer" },
-                    { label: "Seller", value: "seller" }
+                    [ { label: "UnderGraduate", value: "undergrad" },
+                    { label: "Graduate", value: "grad" }
                     ]
                }
                control={control}

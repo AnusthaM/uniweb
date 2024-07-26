@@ -11,25 +11,43 @@ export const BannerComponent = () => {
                {
                     _id: "",
                     title: "Banner Image",
-                    image: "https://icms-image.slatic.net/images/ims-web/9904c7a7-2da6-4783-8a10-d068e8c408e0.jpg_1200x1200.jpg",
-                    link: "https://google.com",
-               },
-               {
-                    _id: "",
-                    title: "Banner Image",
-                    image: "https://icms-image.slatic.net/images/ims-web/be727802-ea20-435a-9cda-bb01a221b1ab.jpg",
+                    image: "https://www.usnews.com/dims4/USNEWS/e787cac/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fd1%2Ffe377768fbb26f45239bd82b4b41d0%2F20191020_COMM_coheamarketing121.png",
                     link: "",
                },
                {
                     _id: "",
                     title: "Banner Image",
-                    image: "https://icms-image.slatic.net/images/ims-web/b980d7dc-e23b-4f30-b413-ee17b6e06d82.png",
+                    image: "https://borderless.so/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fborderless-so.appspot.com%2Forgs%252FF7TR4XwhpGM9wZWAOEQl%252FcampusImage.jpg&w=3840&q=75",
                     link: "",
                },
                {
                     _id: "",
                     title: "Banner Image",
-                    image: "https://icms-image.slatic.net/images/ims-web/8219dc4b-18ec-481d-a34c-ff76d36ee6f8.jpg",
+                    image: "https://cdn.britannica.com/08/235008-050-C82C6C44/Cornell-University-Uris-Library-Ithaca-New-York.jpg",
+                    link: "",
+               },
+               {
+                    _id: "",
+                    title: "Banner Image",
+                    image: "https://www.ivywise.com/core/wp-content/uploads/2022/07/Baker_Memorial_Library_Dartmouth_College_-_DSC090661.jpeg",
+                    link: "",
+               },
+               {
+                    _id: "",
+                    title: "Banner Image",
+                    image: "https://media.cntraveler.com/photos/5c1137222a1ed14acdea31a2/16:9/w_2560,c_limit/GettyImages-594949892.jpg",
+                    link: "",
+               },
+               {
+                    _id: "",
+                    title: "Banner Image",
+                    image: "https://www.princeton.edu//sites/default/files/images/2017/06/20060425_NassauHall_JJ_IMG_5973.jpg",
+                    link: "",
+               },
+               {
+                    _id: "",
+                    title: "Banner Image",
+                    image: "https://admissions.yale.edu/sites/default/files/styles/main-carousel-image--1280x850/public/home-main-carousel-images/crosscampus2019.png?itok=QJDBkwgU",
                     link: "",
                }
           ]
@@ -41,7 +59,7 @@ export const BannerComponent = () => {
      }, [] )
      return (
           <>
-               <div className="h-52  sm:h-64 xl:h-80 2xl:h-[450px]">
+               <div className="h-max sm:h-64 xl:h-80 2xl:h-96rounded-none shadow-none">
                     <SliderComponent data={bannerData} />
                </div>
           </>
