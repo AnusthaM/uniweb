@@ -23,7 +23,7 @@ const AboutPage = () => {
                     </div>
                </article>
 
-               <article className="flex items-end justify-between rounded-lg border border-gray-100 bg-white p-6">
+               {/* <article className="flex items-end justify-between rounded-lg border border-gray-100 bg-white p-6">
                     <div className="flex items-center gap-4">
                          <div>
                               <p className="text-sm text-gray-500">Profit</p>
@@ -54,7 +54,7 @@ const AboutPage = () => {
 
                          <span className="text-xs font-medium"> 67.81% </span>
                     </div>
-               </article>
+               </article> */}
 
 
           </>
